@@ -1,0 +1,13 @@
+@mixin fix_all_ie(){
+
+  _:-ms-lang(x),&{
+    @content;
+  }
+  _:-ms-fullscreen, :root &{
+    @content;
+  }
+  .lt-ie10 &{
+    @content;
+  }
+
+}

@@ -1,0 +1,28 @@
+- title: News & Promotions
+  paragraph:
+  - single: true
+    content:
+      - pic: img/Members-Special/member-1.jpg
+        subtitle: "New Child/Student Membership"
+        note: "<p>Introducing our new Child/Student membership category, a 1-year membership priced at S$34.</p>"
+        text: "<p>Eligibility: Visitors between 3 – 12 years old, or full-time students with valid student identification cards. Child/Student members enjoy all Friends of the Gardens privileges and benefits except free parking for the first two hours. Terms and conditions apply.</p>"
+
+
+- title: Dining Privileges
+  paragraph:
+  - content:
+      - pic: img/Members-Special/tree.jpg
+        subtitle: "Majestic Bay Seafood Restaurant"
+        note: "
+        <p>Savour award-winning Chef Yong Bing Ngen’s creations, a combination of new innovations and classic favourites. Majestic Bay is the Majestic Group’s first seafood themed restaurant, and freshness is key here, evident from the “live” water tanks flanking the entrance. Crab fans can look forward to Chef Yong’s masterpiece and labour of love, his signature “Kopi” Crab dish. Smothered in a special sauce blended with 3 coffee bean varieties, this dish took Chef Yong over 3 months to perfect. The Kopi Crab dish comes with a performance too: flambéed before your eyes with a mixture of rice wine and coffee liqueur, with a final touch of coffee beans just before serving for an extra burst of caramelised fragrance.</p>
+        <p>Members dining at the same table can enjoy a complimentary non-alcoholic welcome drink with any order. You can receive a complimentary box of freshly baked walnut cookies worth S$18 when you spend S$150 in a single dine-in receipt. Dining on your birthday? Enjoy handmade mini longevity peach buns with lotus seed paste filling with any amount spent (dine-in only), on the house!</p>
+        "
+        text: "<p>Terms and conditions apply.</p>"
+  - content:
+      - pic: img/Members-Special/cake.jpg
+        subtitle: "Bakerzin, Gardens by the Bay"
+        note: "
+        <p>Bakerzin is a name familiar with all sweet-toothed Singaporeans. Synonymous with delicious desserts, cakes and mains crafted with only the best ingredients, customers are guaranteed pleasure and delight with every mouthful of a Bakerzin creation. Be sure to try the crowd favourites, their signature Ribeye Steak and Tomato Basil Bruschetta. Come on down now for a truly indulgent experience!</p>
+        <p>Enjoy 10% off your bill with a minimum spend of S$30 when you dine in, as well as a complimentary slice of cake with every order of à la carte mains, Big Bites, pastas or wraps!</p>
+        "
+        text: "<p>Terms and conditions apply.</p>"

@@ -1,0 +1,36 @@
+$border-color : #cacaca;
+/*broweserupgrad*/
+.browserupgrade{text-align: center; color:#fff; background: #000; padding: 15px 0; margin-top: -5px;}
+.browserupgrade a{color:#fff; text-decoration: underline;}
+
+/* HTML5 display-role reset for older browsers */
+html, body, h1, h2, h3, h4, h5, ul{
+  margin: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body{
+
+}
+.container{
+
+}
+nav{
+
+}
+.dsp-inline-block{
+  font-size: 0;
+  line-height:0;
+  &:after{
+    content: "";
+    width: 100%;
+    display: inline-block;
+  }
+  & > *{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
