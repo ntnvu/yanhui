@@ -1,0 +1,19 @@
+.job-item {
+  height: 0;
+  padding-bottom: 125%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.job-item-bg{
+  position: relative;
+  padding-bottom: 140%;
+}
+
+.job-item-text {
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  padding: 20px 15px;
+}

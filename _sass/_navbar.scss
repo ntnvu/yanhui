@@ -1,0 +1,23 @@
+/*! Navbar */
+#main-menu {
+  a {
+    color: #b49310;
+  }
+}
+
+.navbar-brand {
+  height: auto;
+}
+
+.navbar-toggle-wrap {
+  float: right;
+  margin-top: 70px;
+  .toggle-text {
+    font-size: 29px;
+    color: #80552b;
+  }
+  > * {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}

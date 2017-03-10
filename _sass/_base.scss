@@ -1,0 +1,96 @@
+/*!
+CSS Content
+- Default CSS
+- Navbar
+*/
+
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", san-serif;
+}
+
+/*! Default CSS */
+.btn-clear {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-toggle .icon-bar {
+  height: 3px;
+  width: 40px;
+  display: block;
+  margin: 8px 0 5px;
+  background-color: #7f542a;
+  border-radius: 3px;
+}
+
+.btn-toggle .sr-only + .icon-bar {
+  margin-top: 4px;
+}
+
+.background-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.color-yellow {
+  color: #b49310;
+}
+
+.color-red {
+  color: #d71a17;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-pink {
+  color: #d98484;
+}
+
+.color-gray {
+  color: #888;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.max-width-1400 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg-red {
+  background-color: #d71a17;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}

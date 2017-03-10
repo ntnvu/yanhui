@@ -17,6 +17,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,44 +41,70 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 <header class="header">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
+    <div class="container">
+        <nav class="navbar">
+
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Brand</a>
+            <div class="navbar-header clearfix">
+                <a class="navbar-brand pull-left" href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="collapsed navbar-toggle-wrap hidden-lg pull-right" data-toggle="collapse"
+                     data-target="#main-menu" aria-expanded="false">
+                    <button type="button" class="btn-clear btn-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="toggle-text">菜单</span>
+                </div>
+
             </div>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav>
+
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav font-16">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">关于燕汇</a></li>
+                    <li><a href="#">分销的产品</a></li>
+                    <li><a href="#">文章</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 </header>
-<div id="{{page.slug}}" class="{{page.slug}} main">
+<div id="{{page.slug}}" class="{{page.template}} main">
     {{content}}
 </div>
+<footer class="footer color-white">
+    <div class="container clearfix">
+        <div class="footer-contact-wrap">
+            <div class="logo-footer">
+                <img src="images/logo-footer.jpg" alt="">
+            </div>
+            <div class="footer-text">
+                <span class="font-40">
+                    任何询问？
+                </span>
+                <span class="font-18 footer-contact">
+                    <span>立即联系我们于 <a href="tel:659839 5939">659839 5939</a></span>
+                    <span>或者电邮我们</span>
+                    <span><a href="mailto:enquiry@yanhuibirdnest.com">enquiry@yanhuibirdnest.com</a></span>
+                </span>
+            </div>
+            <div class="footer-qr">
+                <div class="font-18">
+                    微信 ID: DDlovesg
+                </div>
+                <img src="images/qrcode.jpg">
+            </div>
+        </div>
+        <div class="copyright font-16 color-pink">
+            版权所有 2010-2015 上海磊诺家具公司
+        </div>
+    </div>
+</footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
