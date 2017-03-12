@@ -1,6 +1,5 @@
 .section-our-product {
   position: relative;
-  margin-top: 40px;
   padding-bottom: 40px;
   .background-cover {
     padding-bottom: 120%;
@@ -19,4 +18,8 @@
     display: block;
     margin-bottom: 15px;
   }
+}
+
+.section-our-product + .section-our-product{
+  margin-top: 40px;
 }

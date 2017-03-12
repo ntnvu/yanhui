@@ -59,6 +59,10 @@
     margin-right: 15px;
   }
 
+  .footer-qr div {
+    margin-bottom: 10px;
+  }
+
 //generic page
   .section-paragraph {
     padding: 0 0 30px;
@@ -97,6 +101,15 @@
 
   .contact-div span{
     width: auto;
+  }
+  .section-our-product .box-decor-text{
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .section-our-product .box-decor-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
   }
 }
 
@@ -167,10 +180,6 @@
     margin-bottom: 0;
   }
 
-  .section-paragraph {
-    padding: 50px 0;
-  }
-
   .page-generic .box-decor-small {
     width: 460px;
   }
@@ -188,6 +197,7 @@
   .section-our-product .box-decor img {
     float: left;
     margin-bottom: 0;
+    margin-right: 60px;
   }
 
   .section-our-product .background-cover {
