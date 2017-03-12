@@ -1,11 +1,20 @@
 @media screen and (min-width: 480px) {
-
+  .section-our-product .background-cover {
+    padding-bottom: 95%;
+  }
+  .resource-col {
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 640px) {
   .section-banner-item {
     width: 33.3%;
     float: left;
+  }
+
+  .section-our-product .background-cover {
+    padding-bottom: 60%;
   }
 }
 
@@ -50,9 +59,44 @@
     margin-right: 15px;
   }
 
-  //generic page
+//generic page
   .section-paragraph {
     padding: 0 0 30px;
+  }
+
+  .section-our-product .background-cover {
+    padding-bottom: 40%;
+  }
+
+//resource page
+  .resource-info {
+    font-size: 25px;
+    margin: 25px 0 20px;
+  }
+
+  .section-resources {
+    padding-bottom: 60px;
+  }
+
+  .section-resources .section-content p,
+  .section-contact .section-content p{
+    letter-spacing: 1px;
+  }
+
+  .page-title {
+    font-size: 45px;
+  }
+
+  .section-grid-general{
+    margin-bottom: 80px;
+  }
+
+  .contact-div a {
+    text-align: left;
+  }
+
+  .contact-div span{
+    width: auto;
   }
 }
 
@@ -62,20 +106,22 @@
     margin-top: 50px;
   }
 
-  .section-grid {
+  .section-grid, .section-our-product {
     position: relative;
   }
 
-  .section-grid .container {
-    width: 1094px;
-    float: left;
-  }
-
-  .box-decor {
-    width: 691px;
+  .section-grid .box-decor,
+  .section-our-product .box-decor {
+    top: 90px;
     position: absolute;
     right: 0;
-    top: 90px;
+    width: 691px;
+  }
+
+  .section-grid .container,
+  .section-our-product .container {
+    width: 1094px;
+    float: left;
   }
 
   .section-jobs {
@@ -116,8 +162,8 @@
     text-align: left;
   }
 
-  //page generic
-  .page-generic .grid-wrap{
+//page generic
+  .page-generic .grid-wrap {
     margin-bottom: 0;
   }
 
@@ -125,14 +171,27 @@
     padding: 50px 0;
   }
 
-  .page-generic .box-decor-small{
+  .page-generic .box-decor-small {
     width: 460px;
   }
 
-  .page-generic .box-decor{
+  .section-grid-general.section-grid .box-decor {
     margin-bottom: 0;
     top: auto;
     bottom: 0;
+  }
+
+  .section-our-product {
+    margin-top: 70px;
+  }
+
+  .section-our-product .box-decor img {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .section-our-product .background-cover {
+    padding-bottom: 48%;
   }
 }
 

@@ -3,25 +3,7 @@ layout: default
 slug: about
 template: page-generic
 ---
-<div class="section section-grid clearfix max-width-1400">
-    <div class="container">
-        <div class="grid-wrap clearfix">
-            {% for i in (3..14) %}
-            <div class="grid-item background-cover" style="background-image: url('images/Yan-Hui_Website_Master_{{i}}.jpg');">
-
-            </div>
-            {% endfor %}
-        </div>
-        <div class="box-decor">
-            <div class="box-decor-text">
-                关于燕汇
-            </div>
-            <div class="box-decor-small">
-                自今年1月以来，马来西亚燕窝陆续进入中国内地市场，但销售模式发生了变化，中国原有燕窝品牌商沦为了马来西亚燕窝品牌代理商。
-            </div>
-        </div>
-    </div>
-</div>
+{% include section-grid-header.html %}
 
 <div class="section section-paragraph">
     <div class="container">

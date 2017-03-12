@@ -1,0 +1,49 @@
+.contact-div a {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #d71a17;;
+}
+
+.contact-div a:hover {
+  text-decoration: none;
+}
+
+.contact-div a:hover span {
+  text-decoration: underline;
+}
+
+.contact-div i {
+  color: #fff;
+  background-color: #d71a17;
+  width: 82px;
+  height: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.contact-div span {
+  width: 100%;
+  display: inline-block;
+}
+
+.section-contact .col-title {
+  margin-bottom: 30px;
+}
+
+.form-submit {
+  border-radius: 0;
+  height: 75px;
+  font-size: 20px;
+}
+
+.form-submit:hover, .form-submit:active, .form-submit:focus {
+  color: #fff;
+}
+
+.section-contact .section-content p {
+  margin-bottom: 30px;
+}

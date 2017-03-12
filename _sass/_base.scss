@@ -10,6 +10,10 @@ body {
 }
 
 /*! Default CSS */
+.display-block {
+  display: block;
+}
+
 .btn-clear {
   background-color: transparent;
   border: none;
@@ -60,18 +64,31 @@ body {
 
 .font-18 {
   font-size: 18px;
+  line-height: 24px;
 }
 
 .font-20 {
   font-size: 20px;
+  line-height: 28px;
+}
+
+.font-24{
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .font-36 {
   font-size: 36px;
+  line-height: 42px;
 }
 
 .font-40 {
   font-size: 40px;
+  line-height: 45px;
+}
+
+.max-width-725 {
+  max-width: 725px;
 }
 
 .max-width-1400 {
@@ -93,4 +110,42 @@ img {
 
 .margin-bottom-30 {
   margin-bottom: 30px !important;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.section-content p {
+  margin: 15px 0;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-control{
+  font-size: 20px;
+  border-color: #e5e5e5;
+  border-radius: 0;
+  height: 75px;
+  padding: 0 35px;
+}
+
+textarea.form-control {
+  height: 240px;
+  padding: 20px 35px;
+}
+
+.form-control:focus{
+  border-color: #888;
+  box-shadow: none;
+}
+
+.footer{
+  margin-top: 150px;
+}
+
+.page-title{
+  margin-bottom: 30px;
 }

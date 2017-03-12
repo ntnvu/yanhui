@@ -1,0 +1,22 @@
+.section-our-product {
+  position: relative;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  .background-cover {
+    padding-bottom: 120%;
+  }
+
+  .box-decor{
+    background: #fff;
+    text-align: center;
+  }
+
+  .box-decor img {
+    margin-bottom: 40px;
+  }
+
+  .box-decor span {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
